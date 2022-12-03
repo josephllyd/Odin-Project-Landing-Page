@@ -1,0 +1,188 @@
+
+body {
+  margin: 0;
+  background: #eee;
+}
+
+.hero-header {
+    background: #1f2937;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.hero-two {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+.hero-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.hero-img {
+    color:#E5E7EB;
+    background: gray;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bold-header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-sec-text {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: 80px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+  
+button.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-right: 80px;
+  padding: 0;
+  gap: 32px;
+}
+
+.content-random {
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.random-title {
+    color: #1f2937;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+}
+  
+.info-ran {
+    max-width: 200px;
+}
+
+img {
+    display: flex;
+    padding: 50px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+}
+
+.text {
+    padding: 1px 0;
+    text-align: center;
+}
+
+.inspi-q {
+    background: #E5E7EB;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 5;
+}
+
+.thor-name {
+    text-align: end;
+    color: #1f2937;
+    font-style: bold;
+    font-weight: bolder;
+}
+
+.content-call {
+    padding: 70px;
+}
+
+.content-call-container {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-call {
+    color: white;
+}
+
+.text-calltoaction {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer {
+    color: #E5E7EB;
+    padding: 50px;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
